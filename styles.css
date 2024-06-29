@@ -1,0 +1,508 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #fff8cb;
+    
+}
+
+.background-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background-section2 {
+    position: relative;
+    overflow-y: scroll;
+    width: 100%;
+    height: 73%;
+}
+
+.background-section3 {
+    position: relative;
+    overflow-y: scroll;
+    width: 100%;
+    height: 65%;
+}
+
+.background-section4 {
+    position: relative;
+    width: 100%;
+    height: 72%;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background-container2 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    overflow-y: scroll;
+}
+
+.background-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-image {
+    position: relative;
+    top: 99%;
+    left: 25%;
+    max-width: 50%;
+    width: 50%; /* Adjust the width and height as needed */
+    height: auto;
+    z-index: 1; /* Ensure this is above the background images */
+    overflow: hidden;
+
+}
+
+
+.image-container {
+    position: relative;
+    
+    
+}
+
+
+
+.clickable-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.clickable-containerbleh {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+.clickable-container a {
+    position: absolute;
+    width: 9vw; /* Use viewport width for responsiveness */
+    height: auto;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+
+
+.link1 { left: 63%; top: 0%; }
+.link2 { left: 79%; top: 1%; }
+.link3 { left: 30%; top: 0%; }
+.link4 { left: 91%; top: 18%; }
+.link5 { left: 11%; top: 2%; }
+.link6 { left: 91%; top: 45%; }
+.link7 { left: 0%; top: 43%; }
+.link8 { left: 0%; top: 23%; }
+
+
+.linkB {
+    left: 8%;
+    top:91%;
+    z-index: 22;
+    position: absolute;
+    width: 12vw; /* Use viewport width for responsiveness */
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.linkC { left:78%; top: 95%;     position: absolute;
+    width: 10vw; /* Use viewport width for responsiveness */
+    height: auto;
+    overflow: hidden; }
+
+.linkD { left:14%; top: 95%;     position: absolute;
+    width: 9vw; /* Use viewport width for responsiveness */
+    height: auto;
+    overflow: hidden; }
+.button10 {
+    left: 85%;
+    top: 84%;
+    z-index: 22;
+    position: absolute;
+    width: 12vw; /* Use viewport width for responsiveness */
+    height: auto;
+    overflow: hidden;
+}
+
+.button11 {
+    left: 7%;
+    top: 79%;
+    z-index: 22;
+    position: absolute;
+    width: 16vw; /* Use viewport width for responsiveness */
+    height: auto;
+    overflow: hidden;
+}
+
+.letter1 { left:40%; top: 80%; }
+.letter2 { left:30%; top: 80%; }
+.letter3 { left:40%; top: 90%; }
+.letter4 { left:30%; top: 90%; }
+.letter5 { left:40%; top: 0%; }
+.letter6 { left:30%; top: 0%; }
+.letter7 { left:40%; top: 15%; }
+.letter8 { left:30%; top: 15%; }
+.letter9 { left:40%; top: 30%; }
+.letter10 { left:30%; top: 30%; }
+.letter11 { left:40%; top: 45%; }
+.letter12 { left:30%; top: 45%; }
+.letter13 { left:40%; top: 60%; }
+.letter14 { left:30%; top: 60%; }
+.letter15 { left:40%; top: 75%; }
+.letter16 { left:30%; top: 75%; }
+.letter17 { left:40%; top: 90%; }
+.letter18 { left:30%; top: 90%; }
+.letter19 { left:40%; top: 105%; }
+.letter20 { left:30%; top: 105%; }
+.letter21 { left:30%; top: 120%; }
+.letter22 { left:40%; top: 120%; }
+.letter23 { left:30%; top: 135%; }
+.letter24 { left:40%; top: 135%; }
+.letter25 { left:30%; top: 150%; }
+.letter26 { left:40%; top: 150%; }
+.letter27 { left:30%; top: 165%; }
+.letter28 { left:40%; top: 165%; }
+
+.surah1 { left:40%; top: 80%; }
+.surah2 { left:30%; top: 80%; }
+.surah3 { left:40%; top: 90%; }
+.surah4 { left:30%; top: 90%; }
+.surah5 { left:40%; top: 0%; }
+.surah6 { left:30%; top: 0%; }
+.surah7 { left:40%; top: 15%; }
+.surah8 { left:30%; top: 15%; }
+.surah9 { left:40%; top: 30%; }
+.surah10 { left:30%; top: 30%; }
+.surah11 { left:40%; top: 45%; }
+.surah12 { left:30%; top: 45%; }
+.surah13 { left:40%; top: 60%; }
+.surah14 { left:30%; top: 60%; }
+.surah15 { left:40%; top: 75%; }
+.surah16 { left:30%; top: 75%; }
+.surah17 { left:40%; top: 90%; }
+.surah18 { left:30%; top: 90%; }
+.surah19 { left:40%; top: 105%; }
+.surah20 { left:30%; top: 105%; }
+.surah21 { left:40%; top: 120%; }
+.surah22 { left:30%; top: 120%; }
+.surah23 { left:40%; top: 135%; }
+.surah24 { left:30%; top: 135%; }
+.surah25 { left:40%; top: 150%; }
+.surah26 { left:30%; top: 150%; }
+.surah27 { left:40%; top: 165%; }
+.surah28 { left:30%; top: 165%; }
+.surah29 { left:40%; top: 180%; }
+.surah30 { left:30%; top: 180%; }
+.surah31 { left:40%; top: 195%; }
+.surah32 { left:30%; top: 195%; }
+.surah33 { left:40%; top: 210%; }
+.surah34 { left:30%; top: 210%; }
+.surah35 { left:40%; top: 225%; }
+.surah36 { left:30%; top: 225%; }
+.surah37 { left:40%; top: 240%; }
+.surah38 { left:30%; top: 240%; }
+.surah39 { left:40%; top: 255%; }
+.surah40 { left:30%; top: 255%; }
+.surah41 { left:40%; top: 270%; }
+.surah42 { left:30%; top: 270%; }
+.surah43 { left:40%; top: 285%; }
+.surah44 { left:30%; top: 285%; }
+.surah45 { left:40%; top: 300%; }
+.surah46 { left:30%; top: 300%; }
+.surah47 { left:40%; top: 315%; }
+.surah48 { left:30%; top: 315%; }
+.surah49 { left:40%; top: 330%; }
+.surah50 { left:30%; top: 330%; }
+.surah51 { left:40%; top: 345%; }
+.surah52 { left:30%; top: 345%; }
+.surah53 { left:40%; top: 360%; }
+.surah54 { left:30%; top: 360%; }
+.surah55 { left:40%; top: 375%; }
+.surah56 { left:30%; top: 375%; }
+.surah57 { left:40%; top: 390%; }
+.surah58 { left:30%; top: 390%; }
+.surah59 { left:40%; top: 405%; }
+.surah60 { left:30%; top: 405%; }
+.surah61 { left:40%; top: 420%; }
+.surah62 { left:30%; top: 420%; }
+.surah63 { left:40%; top: 435%; }
+.surah64 { left:30%; top: 435%; }
+.surah65 { left:40%; top: 450%; }
+.surah66 { left:30%; top: 450%; }
+.surah67 { left:40%; top: 465%; }
+.surah68 { left:30%; top: 465%; }
+.surah69 { left:40%; top: 480%; }
+.surah70 { left:30%; top: 480%; }
+.surah71 { left:40%; top: 495%; }
+.surah72 { left:30%; top: 495%; }
+.surah73 { left:40%; top: 510%; }
+.surah74 { left:30%; top: 510%; }
+.surah75 { left:40%; top: 525%; }
+.surah76 { left:30%; top: 525%; }
+.surah77 { left:40%; top: 540%; }
+.surah78 { left:30%; top: 540%; }
+.surah79 { left:40%; top: 555%; }
+.surah80 { left:30%; top: 555%; }
+.surah81 { left:40%; top: 570%; }
+.surah82 { left:30%; top: 570%; }
+.surah83 { left:40%; top: 585%; }
+.surah84 { left:30%; top: 585%; }
+.surah85 { left:40%; top: 600%; }
+.surah86 { left:30%; top: 600%; }
+.surah87 { left:40%; top: 615%; }
+.surah88 { left:30%; top: 615%; }
+.surah89 { left:40%; top: 630%; }
+.surah90 { left:30%; top: 630%; }
+.surah91 { left:40%; top: 645%; }
+.surah92 { left:30%; top: 645%; }
+.surah93 { left:40%; top: 660%; }
+.surah94 { left:30%; top: 660%; }
+.surah95 { left:40%; top: 675%; }
+.surah96 { left:30%; top: 675%; }
+.surah97 { left:40%; top: 690%; }
+.surah98 { left:30%; top: 690%; }
+.surah99 { left:40%; top: 705%; }
+.surah100 { left:30%; top: 705%; }
+.surah101 { left:40%; top: 720%; }
+.surah102 { left:30%; top: 720%; }
+.surah103 { left:40%; top: 735%; }
+.surah104 { left:30%; top: 735%; }
+.surah105 { left:40%; top: 750%; }
+.surah106 { left:30%; top: 750%; }
+.surah107 { left:40%; top: 765%; }
+.surah108 { left:30%; top: 765%; }
+.surah109 { left:40%; top: 780%; }
+.surah110 { left:30%; top: 780%; }
+.surah111 { left:40%; top: 795%; }
+.surah112 { left:30%; top: 795%; }
+.surah113 { left:40%; top: 810%; }
+.surah114 { left:30%; top: 810%; }
+
+
+.clickable-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.clickable-container img:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.linkB img:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.clickable-containerbleh img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.clickable-containerbleh img:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    .clickable-container a {
+        width: 15vw;
+    }
+
+    .background-container img {
+        height: 120vw;
+    }
+    .overlay-image {
+        height: 1vw;
+    }
+    .image-container {
+        height: 5%;
+    }
+    .background-section2  {
+        height: 10vw;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .clickable-container a {
+        width: 15vw;
+    }
+
+    .link1 { left: 65%; top: 0%; }
+    .link2 { left: 80%; top: 1%; }
+    .link3 { left: 35%; top: 0%; }
+    .link4 { left: 92%; top: 18%; }
+    .link5 { left: 15%; top: 2%; }
+    .link6 { left: 92%; top: 46%; }
+    .link7 { left: 0%; top: 46%; }
+    .link8 { left: 0%; top: 18%; }
+    .link9 { left:15%; top: 94%; }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: auto;
+    z-index: 100;
+    right: -10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff8cb;
+    border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(156, 146, 54);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2e270a;
+}
+
+
+.search-container {
+
+    border-radius: 100%;
+
+    padding: 20px;
+    max-width: 48%;
+    width: 100%;
+    height: 25%;
+    max-height: 30%;
+    margin-top: 30%;
+    margin-left: 25%;
+
+}
+
+.search-bar {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#search-input {
+    background: rgb(255,248,203, 1);
+    width: 120%;
+    padding: 2%;
+    border: 1px solid fff8cb;
+    border-radius: 5px;
+    font-size: 300%;
+    font-style: italic;
+
+    color: #270505;
+    
+}
+
+#search-input::placeholder {
+    color: #270505; /* Placeholder text color */
+    text-align: center;
+}
+
+
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 0%;
+    position: relative;
+    height: 100%;
+}
+
+.result-item {
+    background: #fff8cb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(255,248,203, 1);
+    transition: transform 0.2s;
+    position: relative;
+    justify-content: flex-end;
+    
+}
+
+.result-item:hover {
+    transform: scale(1.02);
+}
+
+.result-item img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+    position: relative;
+    
+}
+
+.result-item a {
+    display: flex;
+    align-items: right;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    width: 100%;
+    max-width: 200%;
+}
+
+.result-item span {
+    font-size: 200%;
+    margin-left: 15px;
+    position: relative;
+}
+
+.result-info {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+}
+
+.tags {
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+}
